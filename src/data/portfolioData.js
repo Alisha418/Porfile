@@ -8,6 +8,10 @@ export const profile = {
   location: 'Lahore, Pakistan',
   linkedin: 'https://www.linkedin.com/in/alisha-siddique',
   github: 'https://github.com/Alisha418',
+  /** File must live in `public/` so the site serves it at this path */
+  resumePath: '/resume.pdf',
+  /** Suggested filename when user clicks Download Resume */
+  resumeDownloadName: 'Alisha_Siddique_Resume.pdf',
 }
 
 export const about =

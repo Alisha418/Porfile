@@ -50,8 +50,8 @@ function Hero() {
           transition={{ delay: 0.65, duration: 0.5 }}
         >
           <a
-            href="/resume.pdf"
-            download
+            href={profile.resumePath}
+            download={profile.resumeDownloadName}
             className="rounded-full bg-gradient-to-r from-indigo-500 to-blue-500 px-6 py-3 text-sm font-semibold text-white shadow-glow transition hover:scale-105"
           >
             Download Resume
